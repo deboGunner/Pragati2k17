@@ -2,61 +2,167 @@ body{
 	overflow-y:auto;
 	overflow-x: hidden;
 }
+
 .fullscreen-bg {
-			position: fixed;
-			top: 0;
-			bottom: 0;
-			left: 0;
-			right: 0;			
-			overflow: hidden;
-			z-index: -100;
-		}
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;			
+	overflow: hidden;
+	z-index: -100;
+}
 
-		.fullscreen-bg__video {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			width: auto;
-			height: auto;
-			min-width: 100%;
-			min-height: 100%;
-			-webkit-transform: translate(-50%, -50%);
-			-moz-transform: translate(-50%, -50%);
-			-ms-transform: translate(-50%, -50%);
-			transform: translate(-50%, -50%);
-		}
+.fullscreen-bg__video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: auto;
+	height: auto;
+	min-width: 100%;
+	min-height: 100%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
 
-		.navbar li { color: #000 } 
-		.styletext {
-			color: #b9b18e;
-			font-size: 36px;
-			line-height: 48px;
-			height: 48px;
-		}
-		.college-logo{
-			position:relative;
-			top:2%;
-			left:33%;
-		}
-		.logo {
-			position:relative;
-			top:15px;
-			left:5%;
-		}
-		.conts{
-			color:white;
-			position:relative;
-			top:15px;
-			left:14%;
-			font-size:30px;
-			color: white;
-			font-style: bold;
-			margin-right:32%;
-		}
-		.dates{
+.navbar li { color: #000 } 
+.styletext {
+	color: #b9b18e;
+	font-size: 36px;
+	line-height: 48px;
+	height: 48px;
+}
+.college-logo{
+	position:relative;
+	top:2%;
+	left:33%;
+}
+.logo {
+	position:relative;
+	top:15px;
+	left:5%;
+}
+.conts{
+	color:white;
+	position:relative;
+	top:15px;
+	left:14%;
+	font-size:30px;
+	color: white;
+	font-style: bold;
+	margin-right:32%;
+}
+.dates{
 
-			color: white;
-			position:relative;
-			top:10px;
-			left:30%;
-		}
+	color: white;
+	position:relative;
+	top:10px;
+	left:30%;
+}
+#footer{
+	position:absolute;
+	bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+	body {
+		font-size: 0.9em;
+	}
+
+	.conts{
+		color:white;
+		position:relative;
+		top:15px;
+		left:17%;
+		font-size:30px;
+		color: white;
+		font-style: bold;
+		margin-right:32%;
+	}
+	.dates{
+
+		color: white;
+		position:relative;
+		top:10px;
+		left:26%;
+	}
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+	body {
+		font-size: 1em;
+	}
+	.conts{
+		color:white;
+		position:relative;
+		top:15px;
+		left:17%;
+		font-size:30px;
+		color: white;
+		font-style: bold;
+		margin-right:32%;
+	}
+	.dates{
+
+		color: white;
+		position:relative;
+		top:10px;
+		left:30%;
+	}
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+	body {
+		font-size: 1.2em;
+	}
+	.conts{
+		color:white;
+		position:relative;
+		top:15px;
+		left:17%;
+		font-size:30px;
+		color: white;
+		font-style: bold;
+		margin-right:32%;
+	}
+	.dates{
+
+		color: white;
+		position:relative;
+		top:10px;
+		left:32%;
+	}
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+	body {
+		font-size: 1.3em;
+	}
+	.conts{
+		color:white;
+		position:relative;
+		top:15px;
+		left:17%;
+		font-size:30px;
+		color: white;
+		font-style: bold;
+		margin-right:32%;
+	}
+	.dates{
+
+		color: white;
+		position:relative;
+		top:10px;
+		left:35%;
+	}
+}
