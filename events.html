@@ -705,7 +705,7 @@
                                 <input type="text" class="form-control" name="TeamName" id="team_mem0">
                               </template>
                               <label for="team-name">Member 1</label>
-                              <input type="text" class="form-control" name="Member1" id="team_mem1">
+                              <input type="text" required class="form-control" name="Member1" id="team_mem1">
                               <template v-if="member_count>1">
                                 <label for="team-name">Member 2</label>
                                 <input type="text" class="form-control" name="Member2" id="team_mem2">
@@ -723,9 +723,9 @@
                                 <input type="text" class="form-control" name="Member5" id="team_mem5">
                               </template>
                               <label for="team-name">Contact Number</label>
-                              <input type="number" class="form-control" name="PhoneNo" id="phone">
+                              <input type="number" required class="form-control" name="PhoneNo" id="phone">
                               <label for="team-name">Email</label>
-                              <input type="email" class="form-control" name="Email" id="email">
+                              <input type="email" required class="form-control" name="Email" id="email">
                               <input type="hidden" class="form-control" name="EventName" v-model="current_event" id="event_name">
                             </div>
                             <button type="submit" class="btn btn-primary" style="width: 100%">Submit</button>
