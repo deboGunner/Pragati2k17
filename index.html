@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<title>Welcome</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
 	<link rel="stylesheet" href="css/index.css">
@@ -9,10 +10,109 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style>
+		/* xs < 768 */
+		@media screen and (max-width: 767px) {
+			body {
+				font-size: 0.9em;
+			}
+
+			.conts{
+				color:white;
+				position:relative;
+				top:15px;
+				left:17%;
+				font-size:30px;
+				color: white;
+				font-style: bold;
+				margin-right:32%;
+			}
+			.dates{
+
+				color: white;
+				position:relative;
+				top:10px;
+				left:26%;
+			}
+		}
+
+		/* sm */
+		@media screen and (min-width: 768px) {
+			body {
+				font-size: 1em;
+			}
+			.conts{
+				color:white;
+				position:relative;
+				top:15px;
+				left:17%;
+				font-size:30px;
+				color: white;
+				font-style: bold;
+				margin-right:32%;
+			}
+			.dates{
+
+				color: white;
+				position:relative;
+				top:10px;
+				left:25%;
+			}
+		}
+
+		/* md */
+		@media screen and (min-width: 992px) {
+			body {
+				font-size: 1.2em;
+			}
+			.conts{
+				color:white;
+				position:relative;
+				top:15px;
+				left:17%;
+				font-size:30px;
+				color: white;
+				font-style: bold;
+				margin-right:32%;
+			}
+			.dates{
+
+				color: white;
+				position:relative;
+				top:10px;
+				left:32%;
+			}
+		}
+
+		/* lg */
+		@media screen and (min-width: 1200px) {
+			body {
+				font-size: 1.3em;
+			}
+			.conts{
+				color:white;
+				position:relative;
+				top:15px;
+				left:17%;
+				font-size:30px;
+				color: white;
+				font-style: bold;
+				margin-right:32%;
+			}
+			.dates{
+
+				color: white;
+				position:relative;
+				top:10px;
+				left:35%;
+			}
+		}
+
+	</style>
 </head>
 <body>
 	<div class="fullscreen-bg">
-		<video loop muted autoplay poster="images/Videoframe.png" class="fullscreen-bg__video">
+		<video loop muted autoplay poster="images/Videoframe.png" width="100%" class="fullscreen-bg__video">
 			<source src="images/back.webm" type="video/webm">
 				<source src="images/back.mp4" type="video/mp4">
 					<source src="images/back.ogg" type="video/ogg">
@@ -42,20 +142,20 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
-						<div class="college-logo">
-							<img class="img-responsive img-rounded" src="images/mckv.png"/>
-						</div>
-						<div class="logo">
-							<img class="img-responsive" src="images/logo1.png"/>
-						</div>
-						<div class="conts">
-							<img class="img-responsive" src="images/image1.png"/>
-							<p>_______________________________________________</p>
-						</div>
-						<div class="dates">
-							<h4><b>9th -10th MAY 2017, VENUE: <a style="text-decoration:none" href="https://www.google.co.in/maps/dir/''/mckv+institute+of+engineering/@22.6197647,88.2776197,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x39f89d65da7b3775:0x30915f7e98f1b0d5!2m2!1d88.3476601!2d22.6197799">MCKV INSTITUE OF ENGINEERING  <i class="fa fa-map-marker" aria-hidden="true"></i></a></b></h4>
-							<h4 style="position:relative;left:15%;margin-top: 5px;"><a style="text-decoration:none;color: white" href="https://www.facebook.com/groups/356943894734392/"><i class="fa fa-facebook-official"></i> Find us on facebook</a></h4>
-						</div>
+							<div class="college-logo">
+								<img class="img-responsive img-rounded" src="images/mckv.png"/>
+							</div>
+							<div class="logo">
+								<img class="img-responsive" src="images/logo1.png"/>
+							</div>
+							<div class="conts">
+								<img class="img-responsive" src="images/image2.png"/>
+								<hr>
+							</div>
+							<div class="dates">
+								<p><big><strong>9th -10th MAY 2017</strong>, VENUE: <a style="text-decoration:none" href="https://www.google.co.in/maps/dir/''/mckv+institute+of+engineering/@22.6197647,88.2776197,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x39f89d65da7b3775:0x30915f7e98f1b0d5!2m2!1d88.3476601!2d22.6197799">MCKVIE<i class="fa fa-map-marker" aria-hidden="true"></i></a>&nbsp;&nbsp;<a style="text-decoration:none;color: white" href="https://www.facebook.com/groups/356943894734392/"><i class="fa fa-facebook-official"></i></big></p>
+							</div>
+
 						</div>
 					</div>
 				</body>

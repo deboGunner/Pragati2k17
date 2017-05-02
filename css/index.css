@@ -1,47 +1,29 @@
 body{
-	overflow:hidden;
+	overflow-y:auto;
+	overflow-x: hidden;
 }
 .fullscreen-bg {
-	position: fixed;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	overflow: hidden;
-	z-index: -100;
-}
+			position: fixed;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;			
+			overflow: hidden;
+			z-index: -100;
+		}
 
-.fullscreen-bg__video {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: auto;
-	height: auto;
-	min-width: 100%;
-	min-height: 100%;
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-}
-
-@media (max-width: 767px) {
-	.fullscreen-bg {
-		background: url('images/Videoframe.png') center center / cover no-repeat;
-	}
-
-	.fullscreen-bg__video {
-		/*display: none;*/
-	}
-	body{
-		overflow-y: auto;
-	}
-
-}
-.navbar {
-			/*background-color: transparent;
-			background: transparent;
-			border-color: transparent;*/
+		.fullscreen-bg__video {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: auto;
+			height: auto;
+			min-width: 100%;
+			min-height: 100%;
+			-webkit-transform: translate(-50%, -50%);
+			-moz-transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
 		}
 
 		.navbar li { color: #000 } 
@@ -69,27 +51,12 @@ body{
 			font-size:30px;
 			color: white;
 			font-style: bold;
+			margin-right:32%;
 		}
 		.dates{
 
 			color: white;
 			position:relative;
 			top:10px;
-			left:24%;
-		}
-
-		@media all and (max-width: 1200px) { /* screen size until 1200px */
-			body {
-				font-size: 1.5em;
-			}
-		}
-		@media all and (max-width: 1000px) { /* screen size until 1000px */
-			body {
-				font-size: 1.2em;
-			}
-		}
-		@media all and (max-width: 500px) { /* screen size until 500px */
-			body {
-				font-size: 0.8em;
-			}
+			left:35%;
 		}
